@@ -30,5 +30,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+            <meta-data
+        tools:replace="android:value"
+        android:name="android.support.VERSION"
+        android:value="26.1.0" />
     </application>
 </manifest>
